@@ -6,14 +6,14 @@
 title: Hexo
 subtitle:
 description:
-author: John Doe
+author: Viliam Rockai
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: https://vrockai.github.io/
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -77,4 +77,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/vrockai/blog.git
+  branch: gh-pages
