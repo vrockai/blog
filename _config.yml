@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: '@vrockai'
 subtitle:
 description:
 author: Viliam Rockai
@@ -69,6 +69,15 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: false
+  smartLists: true
+  smartypants: false
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
@@ -80,3 +89,10 @@ deploy:
   type: git
   repo: https://github.com/vrockai/blog.git
   branch: gh-pages
+
+# Miscellaneous
+google_analytics: UA-4764864-8
+#favicon: /favicon.png
+twitter: blurec
+
+disqus_shortname: vrockai-blog
